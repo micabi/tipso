@@ -1,0 +1,46 @@
+### https://raw.github.com/github/gitignore/26a147d00d26a47389bc28408afe1ee62bd78387/Global/windows.gitignore
+
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must ends with two
+.
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+
+.sass-cache
+
