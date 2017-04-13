@@ -34,14 +34,26 @@
 <body>
 <div id="wrapper">
 	<header id="header">
-		<h1>ツールチップサンプル</h1>
-		<nav>
-			<ul class="clearfix">
-				<li><a href="">Link1</a></li>
-				<li><a href="">Link2</a></li>
-				<li><a href="">Link3</a></li>
-			</ul>
-		</nav>
+
+		<nav class="navbar navbar-default">
+			<a href="#" class="navbar-brand">ツールチップ</a>
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggole" data-toggole="collapse" data-target="#gnavi">
+					<span class="sr-only">メニュー</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div><!-- .navbar-header -->
+
+			<div id="gnavi" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="">Link1</a></li>
+					<li><a href="">Link2</a></li>
+					<li><a href="">Link3</a></li>
+				</ul><!-- .nav navbar-nav -->
+			</div><!-- #gnavi.collapse navbar-collapse -->
+		</nav><!-- .navbar navbar-default -->
 	</header><!-- /#header -->
 	<div id="contents">
 		<div id="container">
