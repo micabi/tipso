@@ -1,9 +1,9 @@
 $(document).ready(function(){
 	$('.ruby').tipso({
-		background: 'rgba(82, 0, 43, 0.6)',
+		background: 'rgba(153, 0, 18, 0.6)',
 		color: '#fff',
 		useTitle: false,
-		titleBackground: 'rgba(49, 0, 26, 1)',
+		titleBackground: 'rgba(187, 0, 22, 1)',
 		titleContent: 'ルビー',
 		ajaxContentUrl: 'gem/ruby.html'
 	});
