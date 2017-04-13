@@ -22,7 +22,7 @@ ul{
 
 #header{
 	width: 100%;
-	background-color: rgb(236, 156, 61);
+	background-color: rgb(236, 103, 61);
 }
 
 #header h1{
@@ -67,14 +67,24 @@ ul{
 	margin: 0 auto;
 }
 
-#contents p span.tipso{
-	border-bottom: 1px dotted #666;
-	color: rgb(233, 24, 112);
+#contents p span.ruby{
+	border-bottom: 1px dotted rgba(187, 0, 22, 1);
+	color: rgba(187, 0, 22, 1);
+}
+
+#contents p span.sapphire{
+	border-bottom: 1px dotted rgba(20, 9, 126, 1);
+	color: rgba(20, 9, 126, 1);
+}
+
+#contents p span.emerald{
+	border-bottom: 1px dotted rgba(0, 31, 21, 1);
+	color: rgba(0, 31, 21, 1);
 }
 
 #footer{
 	width: 100%;
-	background-color: rgb(236, 156, 61);
+	background-color: rgb(236, 103, 61);
 	padding-top: 20px;
 }
 
