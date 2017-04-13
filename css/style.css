@@ -67,9 +67,19 @@ ul{
 	margin: 0 auto;
 }
 
-#contents p span.tipso{
+#contents p span.ruby{
 	border-bottom: 1px dotted #666;
-	color: rgb(233, 24, 112);
+	color: rgba(49, 0, 26, 1);
+}
+
+#contents p span.sapphire{
+	border-bottom: 1px dotted #666;
+	color: rgba(20, 9, 126, 1);
+}
+
+#contents p span.emerald{
+	border-bottom: 1px dotted #666;
+	color: rgba(0, 31, 21, 1);
 }
 
 #footer{
