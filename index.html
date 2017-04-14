@@ -7,7 +7,10 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+	<!--
 	<meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=yes" />
+-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>ツールチップtipso</title>
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
@@ -20,13 +23,8 @@
 	-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/tipso.min.css">
-	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-	<script src="js/tipso.min.js"></script>
-	<script src="js/go.js"></script>
 	<!--[if lt IE9]>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js/></script>
 	<![endif]-->
@@ -36,25 +34,33 @@
 	<header id="header">
 
 		<nav class="navbar navbar-default">
-			<a href="#" class="navbar-brand">ツールチップ</a>
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggole" data-toggole="collapse" data-target="#gnavi">
-					<span class="sr-only">メニュー</span>
+  		<div class="container">
+
+			<!-- ヘッダー -->
+    		<div class="navbar-header">
+				<a href="#" class="navbar-brand">tipso</a>
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#gmav" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-			</div><!-- .navbar-header -->
+			</div>
 
-			<div id="gnavi" class="collapse navbar-collapse">
+			<!-- ボディ -->
+    		<div class="collapse navbar-collapse navbar-right" id="gmav">
 				<ul class="nav navbar-nav">
-					<li><a href="">Link1</a></li>
-					<li><a href="">Link2</a></li>
-					<li><a href="">Link3</a></li>
+					<li><a href="#">link1</a></li>
+					<li><a href="#">link2</a></li>
+					<li><a href="#">link3</a></li>
 				</ul><!-- .nav navbar-nav -->
-			</div><!-- #gnavi.collapse navbar-collapse -->
-		</nav><!-- .navbar navbar-default -->
+    		</div>
+
+  		</div><!-- /.container -->
+		</nav>
+
 	</header><!-- /#header -->
+
 	<div id="contents">
 		<div id="container">
 			<div class="row">
@@ -81,8 +87,10 @@
 		</div><!-- /#footnav -->
 	</footer><!-- /#footer -->
 </div><!-- /#wrapper -->
-
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/tipso.min.js"></script>
+<script src="js/go.js"></script>
 </body>
 </html>
